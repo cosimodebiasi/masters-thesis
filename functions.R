@@ -86,7 +86,7 @@ myfrob <- function(A.hat, A, K) {
 # Function: Structural Impulse Response Functions via ICA
 #############################################################
 
-compute_struct_irf <- function(varest_obj, A_mat, h = 24) {
+compute_struct_irf <- function(varest_obj, A_mat, h = 13) {
   
   Phi <- Acoef(varest_obj)
   K <- ncol(A_mat)
